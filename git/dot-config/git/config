@@ -1,0 +1,7 @@
+[user]
+	name = Leonardo Menezes
+	email = leomenezesdel@gmail.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
