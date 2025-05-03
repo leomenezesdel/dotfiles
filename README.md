@@ -1,37 +1,31 @@
 # leomenezesdel's dotfiles
 
 ```
-$ make install
+$ make dotfiles
+$ make packages
+$ make flatpaks
 ```
 
 ## Desktop Apps
 
-```
-#
-# Pinned
-#
-flatpak install flathub \
-    org.mozilla.firefox \
-    org.keepassxc.KeePassXC \
-    com.vscodium.codium \
-    org.libreoffice.LibreOffice
+### Pinned
 
-#
-# Sound & Video
-#
-flatpak install flathub \
-    com.obsproject.Studio \
-    fr.handbrake.ghb \
-    org.shotcut.Shotcut
+- [Firefox](https://flathub.org/apps/org.mozilla.firefox)
+- [KeePassXC](https://flathub.org/apps/org.keepassxc.KeePassXC)
+- [VSCodium](https://flathub.org/apps/com.vscodium.codium)
+- [LibreOffice](https://flathub.org/apps/org.libreoffice.LibreOffice)
 
-#
-# Internet
-#
-flatpak install flathub \
-    com.ktechpit.torrhunt \
-    com.ktechpit.ultimate-media-downloader \
-    org.qbittorrent.qBittorrent
-```
+### Sound & Video
+
+- [OBS Studio](https://flathub.org/apps/com.obsproject.Studio)
+- [HandBrake](https://flathub.org/apps/fr.handbrake.ghb)
+- [Shotcut](https://flathub.org/apps/org.shotcut.Shotcut)
+
+### Internet
+
+- [Torrhunt](https://flathub.org/apps/com.ktechpit.torrhunt)
+- [Ultimate Media Downloader](https://flathub.org/apps/com.ktechpit.ultimate-media-downloader)
+- [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
 
 ## Setup missing features
 
