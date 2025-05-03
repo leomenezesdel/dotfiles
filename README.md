@@ -1,24 +1,25 @@
-# Dotfiles
+# leomenezesdel's dotfiles
 
 ```
-~/.config/git/config
-~/.bashrc
-~/.bash_logout
-~/.config/tmux/tmux.conf
-~/.vimrc
+chmod +x install.sh
+./install.sh
 ```
 
-## Installing
-
 ```
-#
-# Essential
-#
 sudo pacman -S \
     man-db man-pages \
     bash-completion pkgfile \
-    git gvim tmux \
+    entr git gvim nnn stow \
+    tmux wl-clipboard \
     noto-fonts noto-fonts-cjk noto-fonts-emoji
+```
+
+## Desktop Apps
+
+```
+#
+# Pinned
+#
 flatpak install flathub \
     org.mozilla.firefox \
     org.keepassxc.KeePassXC \
@@ -44,7 +45,7 @@ flatpak install flathub \
 
 ## Setup missing features
 
-- (ble.sh)[https://aur.archlinux.org/packages/blesh-git] (AUR)[https://aur.archlinux.org/packages/blesh-git]
 - (pkgfile)[https://wiki.archlinux.org/title/Pkgfile]
 - (Tmux Plugin Manager)[https://github.com/tmux-plugins/tpm]
+- (vim-plug)[https://github.com/junegunn/vim-plug]
 
