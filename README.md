@@ -1,30 +1,50 @@
 # Dotfiles
 
 ```
-~/.gitconfig
+~/.config/git/config
+~/.bashrc
+~/.bash_logout
+~/.config/tmux/tmux.conf
+~/.vimrc
 ```
 
-# Pacman
+## Installing
 
 ```
-man-db man-pages
-git gvim tmux
-noto-fonts noto-fonts-cjk noto-fonts-emoji
+#
+# Essential
+#
+sudo pacman -S \
+    man-db man-pages \
+    bash-completion pkgfile \
+    git gvim tmux \
+    noto-fonts noto-fonts-cjk noto-fonts-emoji
+flatpak install flathub \
+    org.mozilla.firefox \
+    org.keepassxc.KeePassXC \
+    com.vscodium.codium \
+    org.libreoffice.LibreOffice
+
+#
+# Sound & Video
+#
+flatpak install flathub \
+    com.obsproject.Studio \
+    fr.handbrake.ghb \
+    org.shotcut.Shotcut
+
+#
+# Internet
+#
+flatpak install flathub \
+    com.ktechpit.torrhunt \
+    com.ktechpit.ultimate-media-downloader \
+    org.qbittorrent.qBittorrent
 ```
 
-# Flatpak
+## Setup missing features
 
-```
-org.mozilla.firefox
-org.keepassxc.KeePassXC
-com.vscodium.codium
-org.libreoffice.LibreOffice
+- (ble.sh)[https://aur.archlinux.org/packages/blesh-git] (AUR)[https://aur.archlinux.org/packages/blesh-git]
+- (pkgfile)[https://wiki.archlinux.org/title/Pkgfile]
+- (Tmux Plugin Manager)[https://github.com/tmux-plugins/tpm]
 
-com.obsproject.Studio
-fr.handbrake.ghb
-org.shotcut.Shotcut
-
-com.ktechpit.torrhunt
-com.ktechpit.ultimate-media-downloader
-org.qbittorrent.qBittorrent
-```
