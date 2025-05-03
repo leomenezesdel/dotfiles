@@ -1,17 +1,7 @@
 # leomenezesdel's dotfiles
 
 ```
-chmod +x install.sh
-./install.sh
-```
-
-```
-sudo pacman -S \
-    man-db man-pages \
-    bash-completion pkgfile \
-    entr git gvim nnn stow \
-    tmux wl-clipboard \
-    noto-fonts noto-fonts-cjk noto-fonts-emoji
+$ make install
 ```
 
 ## Desktop Apps
@@ -45,7 +35,7 @@ flatpak install flathub \
 
 ## Setup missing features
 
-- (pkgfile)[https://wiki.archlinux.org/title/Pkgfile]
-- (Tmux Plugin Manager)[https://github.com/tmux-plugins/tpm]
-- (vim-plug)[https://github.com/junegunn/vim-plug]
+- [pkgfile](https://wiki.archlinux.org/title/Pkgfile)
+- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+- [vim-plug](https://github.com/junegunn/vim-plug)
 
