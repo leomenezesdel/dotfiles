@@ -5,9 +5,8 @@ PACKAGES = \
     tmux wl-clipboard \
     docker docker-compose \
     noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
-    timeshift
+    firefox timeshift
 FLATPAKS = \
-    org.mozilla.firefox \
     org.keepassxc.KeePassXC \
     com.vscodium.codium \
     org.libreoffice.LibreOffice \
@@ -17,7 +16,7 @@ FLATPAKS = \
     com.ktechpit.torrhunt \
     com.ktechpit.ultimate-media-downloader \
     org.qbittorrent.qBittorrent
-DOTFILES = bash git readline tmux vim vscodium
+DOTFILES = bash code git readline tmux vim
 
 dotfiles:
 	stow --dotfiles -t "$$HOME" -v -S $(DOTFILES)
