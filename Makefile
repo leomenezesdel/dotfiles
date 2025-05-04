@@ -3,7 +3,8 @@ PACKAGES = \
     bash-completion pkgfile \
     entr git gvim nnn stow \
     tmux wl-clipboard \
-    noto-fonts noto-fonts-cjk noto-fonts-emoji
+    noto-fonts noto-fonts-cjk noto-fonts-emoji \
+    timeshift
 FLATPAKS = \
     org.mozilla.firefox \
     org.keepassxc.KeePassXC \
@@ -28,4 +29,3 @@ packages:
 
 flatpaks:
 	flatpak install flathub $(FLATPAKS)
-

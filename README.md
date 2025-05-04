@@ -1,35 +1,39 @@
 # leomenezesdel's dotfiles
 
+This repository serves as backup and tracking of configuration files and apps in use on [Arch Linux](https://archlinux.org/) - but with some adapts can work on another distros. It's structured with [GNU Stow](https://www.gnu.org/software/stow/) and manipulated with [GNU make](https://www.gnu.org/software/make/manual/make.html).
+
+On a fresh installation, clone this repository and run the 3 following commands:
+
 ```
 $ make dotfiles
 $ make packages
 $ make flatpaks
 ```
 
-## Desktop Apps
+Worth manually set up the packages bellow. Click on package name to access its documentation and complete the action informed right aside the dash symbol.
 
-### Pinned
+- [pkgfile](https://wiki.archlinux.org/title/Pkgfile) - active `systemd` service.
+- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - install.
+- [vim-plug](https://github.com/junegunn/vim-plug) - install.
+
+Here comes to my GUI softwares or desktop apps. Most of them are [Flatpaks](https://flatpak.org/), so get it ready first.
+
+These are my "pinned apps", they are essential in my workflow.
 
 - [Firefox](https://flathub.org/apps/org.mozilla.firefox)
 - [KeePassXC](https://flathub.org/apps/org.keepassxc.KeePassXC)
-- [VSCodium](https://flathub.org/apps/com.vscodium.codium)
 - [LibreOffice](https://flathub.org/apps/org.libreoffice.LibreOffice)
+- [Timeshift](https://github.com/linuxmint/timeshift)
+- [VSCodium](https://flathub.org/apps/com.vscodium.codium)
 
-### Sound & Video
+Related to "sound & video".
 
 - [OBS Studio](https://flathub.org/apps/com.obsproject.Studio)
 - [HandBrake](https://flathub.org/apps/fr.handbrake.ghb)
 - [Shotcut](https://flathub.org/apps/org.shotcut.Shotcut)
 
-### Internet
+Related to "internet".
 
 - [Torrhunt](https://flathub.org/apps/com.ktechpit.torrhunt)
 - [Ultimate Media Downloader](https://flathub.org/apps/com.ktechpit.ultimate-media-downloader)
 - [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
-
-## Setup missing features
-
-- [pkgfile](https://wiki.archlinux.org/title/Pkgfile)
-- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-- [vim-plug](https://github.com/junegunn/vim-plug)
-
