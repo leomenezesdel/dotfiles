@@ -3,7 +3,8 @@ PACKAGES = \
     bash-completion pkgfile \
     entr git gvim nnn stow \
     tmux wl-clipboard \
-    noto-fonts noto-fonts-cjk noto-fonts-emoji \
+    docker docker-compose \
+    noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
     timeshift
 FLATPAKS = \
     org.mozilla.firefox \

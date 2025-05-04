@@ -12,9 +12,10 @@ $ make flatpaks
 
 Worth manually set up the packages bellow. Click on package name to access its documentation and complete the action informed right aside the dash symbol.
 
-- [pkgfile](https://wiki.archlinux.org/title/Pkgfile) - active `systemd` service.
+- [pkgfile](https://wiki.archlinux.org/title/Pkgfile) - enable/start `pkgfile-update.timer`.
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - install.
 - [vim-plug](https://github.com/junegunn/vim-plug) - install.
+- [docker](https://wiki.archlinux.org/title/Docker) - enable/start `docker.socket`.
 - [nvm](https://github.com/nvm-sh/nvm) - install.
 
 Here comes to my GUI softwares or desktop apps. Most of them are [Flatpaks](https://flatpak.org/), so get it ready first.
