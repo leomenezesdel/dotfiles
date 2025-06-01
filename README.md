@@ -54,6 +54,8 @@ entr
 git
 man-db
 man-pages
+nnn
+tmux
 vim
 ```
 
