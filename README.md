@@ -60,19 +60,14 @@ tmux
 vim
 ```
 
-Configuration Files:
-
-```
-~/.gitconfig
-```
-
 Install manually:
 
 - [Node Version Manager](https://github.com/nvm-sh/nvm)
+- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 
 Stow packages:
 
 ```
-stow --target="$HOME" -v --stow git
+stow --target="$HOME" -v --stow git tmux
 ```
 
