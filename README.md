@@ -68,6 +68,6 @@ Install manually:
 Stow packages:
 
 ```
-stow --target="$HOME" -v --stow bash git tmux
+stow --target="$HOME" -v --stow bash git tmux readline
 ```
 
