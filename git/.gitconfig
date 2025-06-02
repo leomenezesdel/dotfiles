@@ -1,0 +1,9 @@
+[user]
+	email = leomenezesdel@gmail.com
+	name = Leonardo Menezes
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true

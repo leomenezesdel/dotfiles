@@ -55,6 +55,7 @@ git
 man-db
 man-pages
 nnn
+stow
 tmux
 vim
 ```
@@ -68,4 +69,10 @@ Configuration Files:
 Install manually:
 
 - [Node Version Manager](https://github.com/nvm-sh/nvm)
+
+Stow packages:
+
+```
+stow --target="$HOME" -v --stow git
+```
 
