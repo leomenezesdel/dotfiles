@@ -58,6 +58,7 @@ nnn
 stow
 tmux
 vim
+wget
 ```
 
 Install manually:
